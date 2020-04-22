@@ -15,6 +15,9 @@ public class Main {
         for (int i = 0; i < array.length; i++) {
             array[i] = (int) (Math.random() * 100);
         }
+        System.out.println("UNSORTED ARRAY");
+        System.out.println(Arrays.toString(array));
+
         InsertionSortClass.insertionSortMethod(array);
         System.out.println("ARRAY SORTED AFTER INSERTION SORT RECURSIVELY");
         System.out.println(Arrays.toString(array));
